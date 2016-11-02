@@ -4,6 +4,7 @@ for i = 1:decal:(length(a)-wsize)
     w = a(i:(i+wsize-1));
     
     h = hamming(wsize);
+    h = rot90(h);
     
     e = w .* h;
     
