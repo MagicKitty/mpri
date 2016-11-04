@@ -10,4 +10,4 @@ length(test);
 
 tabloDistancesEuclidiennes = calculTabloDistancesEuclidiennes(test,ref);
 
-tabloDistancesLocales = calculTabloDistancesLocales(test,ref,tabloDistancesEuclidiennes);
+score = calculScore(test,ref,tabloDistancesEuclidiennes);
